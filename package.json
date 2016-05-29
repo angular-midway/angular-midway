@@ -1,0 +1,23 @@
+{
+  "name": "angular-midway",
+  "version": "1.0.0",
+  "description": "This is similar with angular-mock, or we can say is a subset of it, support but not limit to jasmine or mocha or cucumber",
+  "main": "index.js",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/angular-midway/angular-midway.git"
+  },
+  "bugs": "https://github.com/angular-midway/angular-midway/issues",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+	"angular",
+    "angular mock",
+    "integration test",
+    "midway test",
+    "unit test"
+  ],
+  "author": "Larry Chen",
+  "license": "ISC"
+}
