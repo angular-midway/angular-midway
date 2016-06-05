@@ -13,6 +13,7 @@ Please hesitate to contact me, if you have any concerns.
 ## Inspired by:
 
 [angular-mock](https://www.npmjs.com/package/angular-mocks)
+
 [ng-midway-tester](https://www.npmjs.com/package/ng-midway-tester)
 
 
