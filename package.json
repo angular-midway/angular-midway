@@ -1,6 +1,6 @@
 {
   "name": "angular-midway",
-  "version": "1.0.2",
+  "version": "0.0.2",
   "description": "This is similar with angular-mock, or we can say is a subset of it, support but not limit to jasmine or mocha or cucumber",
   "main": "index.js",
   "repository": {

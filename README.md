@@ -34,7 +34,7 @@ For more information please see [karma-cucumber-js](https://www.npmjs.com/packag
 Please insure you have already setup the environment follow karma-cucumber-js
 instruction.
 And then in the step definition add additional row, it's not a good way,
-but you have to, I will improve later.
+but you have to, I'm going to improve it later.
 
 ``` JavaScript
 __adapter__.addStepDefinitions(function (scenario) {
