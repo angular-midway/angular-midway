@@ -1,11 +1,9 @@
 # angular-midway
 
-This is a subset of angular-mock based on version 1.4.11, 
+This is a plugin of angular-mock based on version 1.4.8, 
 which supports CucumberJS.
  
-Most of the method were just simply copied from angular-mock,
-I'm going to merge it with angular-mock,
-there is no need for us to maintain two similar frameworks.
+> Most of the method were just simply copied from angular-mock,
 
 Please hesitate to contact me, if you have any concerns.
 
@@ -33,12 +31,12 @@ For more information please see [karma-cucumber-js](https://www.npmjs.com/packag
 
 Please insure you have already setup the environment follow karma-cucumber-js
 instruction.
-And then in the step definition add additional row, it's not a good way,
-but you have to, I'm going to improve it later.
+And then in the step definition add additional callback, it's not a good way,
+but you have to, I'm going to improve it in the feature.
 
 ``` JavaScript
 __adapter__.addStepDefinitions(function (scenario) {
-    window.Cucumber.callback(scenario); // Don't forget to add
+    window.Cucumber.callback(scenario); // Don't forget add this line
     scenario.Given(/^there is a test step$/, function () { });
     scenario.When(/^it is executed$/, function () { });
     scenario.When(/^it is not executed$/, function (callback) { return callback.pending(); });

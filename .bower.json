@@ -1,0 +1,12 @@
+{
+  "name": "angular-midway",
+  "version": "0.0.3",
+  "license": "ISC",
+  "main": "./angular-midway.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-mocks": "~1.4.8"
+  },
+  "homepage": "https://github.com/angular-midway/angular-midway"
+}

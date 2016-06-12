@@ -1,25 +1,28 @@
 {
   "name": "angular-midway",
-  "version": "0.0.2",
-  "description": "This is similar with angular-mock, or we can say is a subset of it, support but not limit to jasmine or mocha or cucumber",
+  "version": "0.0.3",
+  "description": "This is a plugin of angular-mock, which support cucumberjs",
   "main": "index.js",
   "repository": {
 	"type": "git",
-	"url": "https://github.com/angular-midway/angular-midway.git"
+	"url": "git+https://github.com/angular-midway/angular-midway.git"
   },
-  "bugs": "https://github.com/angular-midway/angular-midway/issues",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
 	"angular",
-	"Cucumber",
-	"BDD",
+	"cucumber",
+	"cucumberjs",
+	"bdd",
     "angular mock",
     "integration test",
     "midway test",
     "unit test"
   ],
-  "author": "Larry Chen",
+  "author": {
+    "name": "Larry Chen"
+  },
+  "bugs": "https://github.com/angular-midway/angular-midway/issues",
   "license": "ISC"
 }
