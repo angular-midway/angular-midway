@@ -24,5 +24,9 @@
     "name": "Larry Chen"
   },
   "bugs": "https://github.com/angular-midway/angular-midway/issues",
+  "peerDependencies": {
+    "angular": "*",
+    "angular-mock": "*"
+  },
   "license": "ISC"
 }
