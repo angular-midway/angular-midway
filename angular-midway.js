@@ -72,13 +72,15 @@
     };
     
     window.Cucumber.callback = function (scenario) {
-      
-      (scenario.Before)(function () {
+      (scenario.BeforeScenario)(function (event, callback) {
+  
         annotatedFunctions = [];
-        currentSpec = this;
+        currentSpec = event;
+
+        callback();
       });
       
-      (scenario.After)(function() {
+      (scenario.AfterScenario)(function(event, callback) {
 
         annotatedFunctions.forEach(function(fn) {
           delete fn.$inject;
@@ -114,6 +116,8 @@
           delete angular.callbacks[key];
         });
         angular.callbacks.counter = 0;
+
+        callback();
 
       });
       
