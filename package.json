@@ -1,6 +1,6 @@
 {
   "name": "angular-midway",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "This is a plugin of angular-mock, which support cucumberjs",
   "main": "index.js",
   "repository": {
