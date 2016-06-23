@@ -5,12 +5,12 @@ which supports CucumberJS.
  
 > Most of the method were just simply copied from angular-mock,
 
-Please hesitate to contact me, if you have any concerns.
+Please don't hesitate to contact me if you have any concerns.
 
 
 ## Inspired by:
 
-[angular-mock](https://www.npmjs.com/package/angular-mocks)
+[angular-mocks](https://www.npmjs.com/package/angular-mocks)
 
 [ng-midway-tester](https://www.npmjs.com/package/ng-midway-tester)
 
@@ -24,19 +24,18 @@ npm install karma-cucumber-js --save-dev
 npm install angular-midway --save-dev
 ```
 
-For more information please see [karma-cucumber-js](https://www.npmjs.com/package/karma-cucumber-js)
+For more configuration information please see [karma-cucumber-js](https://www.npmjs.com/package/karma-cucumber-js)
 
 
 ## Step Definitions
 
-Please insure you have already setup the environment follow karma-cucumber-js
-instruction.
+Please ensure that you have already setup the environment according to [karma-cucumber-js](https://www.npmjs.com/package/karma-cucumber-js) guidline.
 And then in the step definition add additional callback, it's not a good way,
-but you have to, I'm going to improve it in the feature.
+but you have to, I will improve it in the feature.
 
 ``` JavaScript
 __adapter__.addStepDefinitions(function (scenario) {
-    window.Cucumber.callback(scenario); // Don't forget add this line
+    window.Cucumber.callback(scenario); // Don't forget to add this line
     scenario.Given(/^there is a test step$/, function () { });
     scenario.When(/^it is executed$/, function () { });
     scenario.When(/^it is not executed$/, function (callback) { return callback.pending(); });
@@ -45,5 +44,11 @@ __adapter__.addStepDefinitions(function (scenario) {
 });
 ```
 
+
+## Issues
+
+Please tell me any issues you have detected or any innovate ideas and submit them [here](https://github.com/angular-midway/angular-midway/issues).
+
+Let's make it better together.
 
 
