@@ -25,8 +25,8 @@
   },
   "bugs": "https://github.com/angular-midway/angular-midway/issues",
   "peerDependencies": {
-    "angular": "*",
-    "angular-mock": "*"
+    "angular": "^1.4.11",
+    "angular-mocks": "^1.4.11"
   },
   "license": "ISC"
 }
