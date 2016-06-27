@@ -1,6 +1,6 @@
 # angular-midway
 
-This is a plugin of angular-mock based on version 1.4.8, 
+This is an extention of angular-mock based on version 1.4.8, 
 which supports CucumberJS.
  
 > Most of the method were just simply copied from angular-mock,
