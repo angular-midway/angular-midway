@@ -1,7 +1,7 @@
 # angular-midway
 
 This is an extention of angular-mock based on version 1.4.8, 
-which supports CucumberJS.
+which supports CucumberJS. I suggest you to use [karma-cucumber-js](https://www.npmjs.com/package/karma-cucumber-js)
  
 > Most of the method were just simply copied from angular-mock,
 
