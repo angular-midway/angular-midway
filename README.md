@@ -8,7 +8,7 @@ which supports CucumberJS. I suggest you to use [karma-cucumber-js](https://www.
 Please don't hesitate to contact me if you have any concerns.
 
 
-## Inspired by:
+## Inspiration
 
 [angular-mocks](https://www.npmjs.com/package/angular-mocks)
 
