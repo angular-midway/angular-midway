@@ -1,11 +1,24 @@
 {
   "name": "angular-midway",
-  "version": "0.0.3",
+  "description": "An extention of angular mocks which supports cucumberjs",
+  "version": "0.0.81",
   "license": "ISC",
   "main": "./angular-midway.js",
-  "ignore": [],
-  "dependencies": {
-    "angular": "~1.4.8",
-    "angular-mocks": "~1.4.8"
-  }
+  "keywords": [
+    "angular",
+    "angular-midway",
+    "angular-mocks",
+    "unit testing",
+    "bdd"
+  ],
+  "authors": [
+    "Larry Chen"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
